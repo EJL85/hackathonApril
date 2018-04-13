@@ -11,6 +11,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #3B2A20;
+  font-family: 'Gaegu', cursive;
 
 }
 main {
@@ -47,6 +48,7 @@ a {
   height: 7em;
   justify-self: center;
   border: 1px black solid;
+  font-family: 'Stylish', sans-serif;
 }
 
 #surfing {
