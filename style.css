@@ -10,6 +10,7 @@ body{
   background-image: url("../pics/sunset2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #3B2A20;
 
 }
 main {
@@ -23,6 +24,13 @@ main {
 header{
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 2em;
+
+}
 
 
 .boxes{
@@ -35,8 +43,8 @@ header{
 }
 
 .box {
-  width: 10em;
-  height: 10em;
+  width: 7em;
+  height: 7em;
   justify-self: center;
   border: 1px black solid;
 }
@@ -78,6 +86,48 @@ header{
 
 #drinking {
   background-image: url("../pics/drinking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#banana {
+  background-image: url("../pics/banana.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#coconutRum {
+  background-image: url("../pics/coconutrum.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#orange{
+  background-image: url("../pics/orangejuice.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#random {
+  background-image: url("../pics/random.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#lime {
+  background-image: url("../pics/lime.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pineapple {
+  background-image: url("../pics/pineapple.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
