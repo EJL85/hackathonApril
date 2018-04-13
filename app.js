@@ -88,6 +88,7 @@ function makeDiv(data) {
     var secBot = document.createElement('section');
     name.innerText = data.drinks[0].strDrink;
     secBot.innerText = data.drinks[0].strInstructions;
+    secBot.id = "instructions"
     div.appendChild(secTop);
     drinkInfo.appendChild(name);
     drinkInfo.appendChild(ingredList);
