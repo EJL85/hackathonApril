@@ -1,4 +1,34 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: url("../pics/sunset2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header{
+}
+
+
+
 .boxes{
+  align-self: center;
+  width: 100%;
+  height: 100%;
   width: 75vw;
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -9,4 +39,46 @@
   height: 10em;
   justify-self: center;
   border: 1px black solid;
+}
+
+#surfing {
+  background-image: url("../pics/surfing.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#adventuring {
+  background-image: url("../pics/hawaii_island_hiking_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#treasure-hunting{
+  background-image: url("../pics/treasure.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#chill{
+  background-image: url("../pics/hammock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#scuba{
+  background-image: url("../pics/scuba.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#drinking {
+  background-image: url("../pics/drinking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
