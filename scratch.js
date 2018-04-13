@@ -1,4 +1,5 @@
 const theSurprise = document.getElementById('random');
+const thePineapple = document.getElementById('pineapple');
 
 theSurprise.addEventListener('click', displayWhiskey);
 
@@ -14,6 +15,6 @@ function displayWhiskey(event) {
   $section.appendChild($h1);
   $section.appendChild($img);
 
-  $h1.textContent = "Happy Birthday Jeff!"
-  
+  $h1.textContent = "Happy Birthday, Jeff!"
+
 }

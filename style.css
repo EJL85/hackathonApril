@@ -139,6 +139,7 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: white;
 }
 
 #whiskey {
@@ -151,4 +152,19 @@ h1 {
 
 #birthdayH1 {
   color: white;
+}
+
+h2{
+  text-shadow: 2px 2px white;
+}
+
+h3{
+    color: white;
+    font-size: 1.5em;
+}
+
+ul {
+  color: white;
+  font-size: 1em;
+  list-style: none;
 }
