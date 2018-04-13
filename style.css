@@ -1,0 +1,12 @@
+.boxes{
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.box {
+  width: 10em;
+  height: 10em;
+  justify-self: center;
+  border: 1px black solid;
+}
