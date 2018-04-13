@@ -134,3 +134,21 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#recipe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#whiskey {
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+#birthdayH1 {
+  color: white;
+}
